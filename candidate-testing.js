@@ -76,6 +76,8 @@ if(grade < 80 ){
   console.log("FAILED!" );
 }else{
   console.log("PASSED! " );
+console.log(`${correctQuestions} out of 5 responses correct.`)
+console.log(grade + "%");
 }
 
   return grade;
